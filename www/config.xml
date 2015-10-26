@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.yourcompany.phonegap_hello_world" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>phonegap_hello_world</name>
+<widget id="com.startbutton.whatever" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Whatever - Just a Test App</name>
     <description>
-      phonegap_hello_world
+      This is a description
     </description>
-    <author email="You@yourcompany.com" name="http://yourcompany.com">
-        Your Company
+    <author email="denis@startbutton.com" name="http://startbutton.com">
+        Startbutton
     </author>
     
     <gap:plugin name="org.apache.cordova.camera" />
@@ -58,9 +58,9 @@
     <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
  
-    <gap:platform name="ios" />
+    <!--<gap:platform name="ios" />-->
     <gap:platform name="android" />
-    <gap:platform name="winphone" />
+    <!--<gap:platform name="winphone" />-->
 
   <access origin="*" />
   
